@@ -1,0 +1,35 @@
+================
+full branch test
+================
+
+branch | flag | test
+
+say | Test1 test2 test5
+
+branch | end
+
+branch | evaluate | ${flag} == 1
+
+say | Test1 test2 test5
+
+branch | end
+
+---
+
+(source_file
+  (branch_statement
+    (identifier))
+
+  (say_statement
+    (speech))
+  (branch_statement
+    (end))
+
+  (branch_statement
+    (expression))
+
+  (say_statement
+    (speech))
+
+  (branch_statement
+    (end)))

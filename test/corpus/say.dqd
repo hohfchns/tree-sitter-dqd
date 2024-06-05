@@ -1,0 +1,23 @@
+================
+say test
+================
+
+say | Test1 test2 test5
+say | | Test6 | test7 | test8
+say | shahar | Test6 | test7 | test8
+
+---
+
+(source_file
+  (say_statement
+    (speech))
+  (say_statement
+    (speech)
+    (speech)
+    (speech))
+  (say_statement
+    (name)
+    (speech)
+    (speech)
+    (speech)))
+

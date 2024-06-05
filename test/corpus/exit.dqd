@@ -1,0 +1,11 @@
+============
+exit statement test
+============
+
+exit |
+
+---
+
+(source_file
+  (exit_statement
+    (exit)))

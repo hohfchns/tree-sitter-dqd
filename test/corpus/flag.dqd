@@ -1,0 +1,41 @@
+============
+flag statement test
+============
+
+
+flag | raise | has_flag
+flag | set | John | name
+flag | inc | num_flags
+flag | inc | 5 | num_flags
+flag | dec | num_flags
+flag | dec | 6 | num_flags
+flag | delete | has_flag
+
+---
+
+
+(source_file
+  (flag_statement
+      (identifier))
+
+  (flag_statement
+      (string)
+      (identifier))
+
+  (flag_statement
+      (identifier))
+
+  (flag_statement
+      (number)
+      (identifier))
+
+  (flag_statement
+    (identifier))
+
+  (flag_statement
+      (number)
+      (identifier))
+
+  (flag_statement
+    (identifier)))
+

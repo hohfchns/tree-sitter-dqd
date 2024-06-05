@@ -1,0 +1,16 @@
+============
+call statement test
+============
+
+
+call | print("Hello World")
+call | DialogueQuest.Flags.clear()
+
+---
+
+(source_file
+  (call_statement
+    (code))
+  (call_statement
+    (code)))
+

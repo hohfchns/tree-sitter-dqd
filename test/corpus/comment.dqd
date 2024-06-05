@@ -1,0 +1,12 @@
+================
+comment test
+================
+
+
+// This is a comment
+
+---
+
+(source_file
+  (comment))
+

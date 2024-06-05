@@ -1,0 +1,20 @@
+============
+choice statement test
+============
+
+
+choice | c1 | choice two | A 3rd choice
+choice | single choice | double
+
+---
+
+
+(source_file
+  (choice_statement
+    (choice)
+    (choice)
+    (choice))
+  (choice_statement
+    (choice)
+    (choice)))
+

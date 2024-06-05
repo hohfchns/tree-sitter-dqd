@@ -1,0 +1,24 @@
+============
+sound statement test
+============
+
+sound | gunshot
+sound | gunshot.wav
+sound | gunshot | Master
+sound | gunshot | Master | 4.18
+
+---
+
+(source_file
+  (sound_statement
+    (string))
+  (sound_statement
+    (string))
+  (sound_statement
+    (string)
+    (string))
+  (sound_statement
+    (string)
+    (string)
+    (number)))
+

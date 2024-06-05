@@ -1,0 +1,30 @@
+============
+signal statement test
+============
+
+signal | 1
+signal | 1 | 2
+signal | 1 | 2 | 3
+signal | some_string
+signal | true
+signal | some string with spaces
+
+---
+
+
+(source_file
+  (signal_statement
+    (number))
+  (signal_statement
+    (number)
+    (number))
+  (signal_statement
+    (number)
+    (number)
+    (number))
+  (signal_statement
+    (identifier))
+  (signal_statement
+    (identifier))
+  (signal_statement
+    (string)))

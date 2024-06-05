@@ -1,0 +1,15 @@
+================
+branch test
+================
+
+branch | flag | test
+branch | end
+
+---
+
+(source_file
+  (branch_statement
+    (identifier))
+  (branch_statement
+    (end)))
+
